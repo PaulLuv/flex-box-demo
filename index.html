@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Flex 基本用法练习</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Flex 布局示例</h1>
+    <h2>容器的属性</h2>
+    <h3>1、flex-direction属性</h3>
+    <p>flex-direction属性决定主轴的方向（即项目的排列方向）。</p>
+    <p>
+        .box { flex-direction: row | row-reverse | column | column-reverse; }
+    </p>
+    <div class="box box-1">
+        <div class="box-item">column</div>
+        <div class="box-item">1</div>
+        <div class="box-item">2</div>
+        <div class="box-item">3</div>
+        <div class="box-item">4</div>
+    </div>
+    <div class="box box-2">
+        <div class="box-item">row</div>
+        <div class="box-item">1</div>
+        <div class="box-item">2</div>
+        <div class="box-item">3</div>
+        <div class="box-item">4</div>
+    </div
+
+    <h3>2. flex-warp属性</h3>
+    <p>flex-warp属性决定如何换行</p>
+    <p>
+        .box{ flex-wrap: nowrap | wrap | wrap-reverse; }
+    </p>
+    <div class="box box-3">
+            <div class="box-item">row nowrap</div>
+            <div class="box-item">1</div>
+            <div class="box-item">2</div>
+            <div class="box-item">3</div>
+            <div class="box-item">4</div>
+    </div>
+    <div class="box box-4">
+            <div class="box-item">row wrap</div>
+            <div class="box-item">1</div>
+            <div class="box-item">2</div>
+            <div class="box-item">3</div>
+            <div class="box-item">4</div>
+    </div>
+    <div class="box box-5">
+            <div class="box-item">row wrap-reverse</div>
+            <div class="box-item">1</div>
+            <div class="box-item">2</div>
+            <div class="box-item">3</div>
+            <div class="box-item">4</div>
+    </div>
+</body>
+
+</html>
